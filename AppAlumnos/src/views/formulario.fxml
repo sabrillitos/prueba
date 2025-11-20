@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21.0.9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FormularioController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="txtLegajo" layoutX="162.0" layoutY="51.0" prefHeight="23.0" prefWidth="277.0" />
+            <TextField fx:id="txtNombre" layoutX="162.0" layoutY="135.0" prefHeight="30.0" prefWidth="277.0" />
+            <TextField fx:id="txtApellido" layoutX="162.0" layoutY="226.0" prefHeight="30.0" prefWidth="277.0" />
+            <Label layoutX="162.0" layoutY="105.0" prefHeight="30.0" prefWidth="90.0" text="Nombre:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="162.0" layoutY="196.0" prefHeight="30.0" prefWidth="90.0" text="Apellido:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="162.0" layoutY="21.0" prefHeight="30.0" prefWidth="90.0" text="Legajo:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnCancelar" layoutX="331.0" layoutY="309.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="41.0" prefWidth="152.0" text="Cancelar" />
+            <Button fx:id="btnConfirmar" layoutX="119.0" layoutY="309.0" mnemonicParsing="false" onAction="#confirmar" prefHeight="41.0" prefWidth="152.0" text="Confirmar" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
